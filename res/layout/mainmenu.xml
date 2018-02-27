@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/bNgame"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15px"
+                android:layout_marginRight="15px"
+                android:layout_marginTop="120px"
+                android:background="@drawable/button_menu"
+                android:gravity="center"
+                android:text="Start new game" />
+
+            <Button
+                android:id="@+id/bCgame"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15px"
+                android:layout_marginRight="15px"
+                android:layout_marginTop="10px"
+                android:background="@drawable/button_menu"
+                android:gravity="center"
+                android:text="Continue previus game" />
+
+            <Button
+                android:id="@+id/bHscores"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15px"
+                android:layout_marginRight="15px"
+                android:layout_marginTop="10px"
+                android:background="@drawable/button_menu"
+                android:gravity="center"
+                android:text="High scores" />
+
+            <Button
+                android:id="@+id/bHowto"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15px"
+                android:layout_marginRight="15px"
+                android:layout_marginTop="10px"
+                android:background="@drawable/button_menu"
+                android:gravity="center"
+                android:text="How to play" />
+
+            <Button
+                android:id="@+id/bAbout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15px"
+                android:layout_marginRight="15px"
+                android:layout_marginTop="10px"
+                android:background="@drawable/button_menu"
+                android:gravity="center"
+                android:text="About us" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

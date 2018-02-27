@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvPoints"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Points: "
+                android:textColor="#0000ff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tvBonus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="No bonus"
+                android:textColor="#0000ff"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/bQuestion"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15px"
+                android:layout_marginRight="15px"
+                android:layout_marginTop="22px"
+                android:background="@drawable/question"
+                android:gravity="center"
+                android:text="Question" />
+
+            <Button
+                android:id="@+id/bAnswerA"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15px"
+                android:layout_marginRight="15px"
+                android:layout_marginTop="10px"
+                android:background="@drawable/button_menu"
+                android:gravity="center"
+                android:text="Answer A" />
+
+            <Button
+                android:id="@+id/bAnswerB"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15px"
+                android:layout_marginRight="15px"
+                android:layout_marginTop="10px"
+                android:background="@drawable/button_menu"
+                android:gravity="center"
+                android:text="AnswerB" />
+
+            <Button
+                android:id="@+id/bAnswerC"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15px"
+                android:layout_marginRight="15px"
+                android:layout_marginTop="10px"
+                android:background="@drawable/button_menu"
+                android:gravity="center"
+                android:text="Answer C" />
+
+            <Button
+                android:id="@+id/bAnswerD"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15px"
+                android:layout_marginRight="15px"
+                android:layout_marginTop="10px"
+                android:background="@drawable/button_menu"
+                android:gravity="center"
+                android:text="Answer D" />
+
+            <Button
+                android:id="@+id/bNext"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15px"
+                android:layout_marginRight="15px"
+                android:layout_marginTop="40px"
+                android:background="@drawable/button_menu"
+                android:gravity="center"
+                android:text="Next" />
+
+            <Button
+                android:id="@+id/bSendResults"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15px"
+                android:layout_marginRight="15px"
+                android:layout_marginTop="10px"
+                android:background="@drawable/button_menu"
+                android:gravity="center"
+                android:text="Send Results" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

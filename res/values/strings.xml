@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SquizzActivity!</string>
+    <string name="app_name">Squizz</string>
+    <string name="about">DIA is a software engineering team of freelance developers from Zagreb, Croatia. We are mainly focused on developing apps for mobile devices (Android App), but we also develop Windows applications and business tools. Feel free to send us questions, suggestions, critics or anything you can think of on team.dia.soft@gmail.com. Thank you and enjoy! www.dia-software@blogspot.com</string>
+
+</resources>
